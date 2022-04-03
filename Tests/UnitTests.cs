@@ -107,7 +107,7 @@ namespace GithubActionsLab
         public void Pow_Valid_Vierk()
         {
             Assert.AreEqual(3, Program.Power("3", "1"));
-            Assert.AreEqual(8, Program.Power("4", "2"));
+            Assert.AreEqual(16, Program.Power("4", "2"));
             Assert.AreEqual(81, Program.Power("3", "3"));
         }
 
